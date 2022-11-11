@@ -1,0 +1,22 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "1. Acesse o site do Cypress: (https://docs.cypress.io/guides/overview/why-cypress)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "didiioice",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "10.11",
+    "esbuild": "^0.15.13"
+  }
+}
